@@ -1,0 +1,49 @@
+.friends-wrap {
+  width: 600px;
+  margin: 0 auto;
+}
+
+
+
+.friend-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.friends-card-wrap {
+  width: 90px;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  height: auto;
+  padding: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.friend-item {}
+
+.friend-item-img {
+  margin-bottom: 8px;
+}
+
+.friend-item-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.is-online {
+  margin: 0;
+  font-size: 16px;
+}
