@@ -1,0 +1,27 @@
+.transaction-wrap {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.description-item,
+.transaction-list-item {
+  border: 1px solid #111111;
+  text-align: center;
+  padding: 8px;
+}
+
+.description-item {
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+}
+
+.transaction-list:nth-child(even) {
+  background-color: #c7bebe;
+
+}
+
+.description-wrap {
+  border-color: #d3d3d3;
+}

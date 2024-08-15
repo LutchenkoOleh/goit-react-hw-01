@@ -3,22 +3,22 @@ import "./TransactionHistory.css"
 
 export default function TransactionHistory({ items }) {
   return (
-    <div>
-      <table >
+    <div >
+      <table className="transaction-wrap">
         <thead >
-          <tr>
-            <th>Type</th>
-            <th>Amount</th>
-            <th>Currency</th>
+          <tr className="description-wrap">
+            <th className="description-item">Type</th>
+            <th className="description-item">Amount</th>
+            <th className="description-item">Currency</th>
           </tr>
         </thead>
 
-        <tbody>
+        <tbody className="transaction-list-wrap">
           {items.map(({ id, type, amount, currency }) => {
-            return (<tr key={id}>
-              <td>{type}</td>
-              <td>{amount}</td>
-              <td>{currency}</td>
+            return (<tr className="transaction-list" key={id}>
+              <td className="transaction-list-item">{type}</td>
+              <td className="transaction-list-item">{amount}</td>
+              <td className="transaction-list-item">{currency}</td>
             </tr>)
           })}
 
