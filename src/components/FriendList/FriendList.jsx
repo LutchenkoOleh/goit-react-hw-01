@@ -1,5 +1,5 @@
 import FriendListItem from "./FriendListItem"
-import friends from "/GOIT/Project/hw-react-1/src/friends.json"
+import friends from "./friends.json"
 import "./FriendList.css"
 
 export default function FriendList() {

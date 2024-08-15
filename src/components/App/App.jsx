@@ -1,8 +1,8 @@
 import FriendList from "../FriendList/FriendList"
 import Profile from "../Profile/Profile"
 import TransactionHistory from "../TransactionHistory/TransactionHistory"
-import userData from "/GOIT/Project/hw-react-1/src/userData.json"
-import transactions from "/GOIT/Project/hw-react-1/src/transactions.json"
+import userData from "../Profile/userData.json"
+import transactions from "../TransactionHistory/transactions.json"
 
 
 
